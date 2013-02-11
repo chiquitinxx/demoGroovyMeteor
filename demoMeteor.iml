@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/presenter" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Groovy 2.1" level="application" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.vert-x/vertx-lang-groovy/1.3.1.final/jar/e066de6722b1bf03cc8c433a02bdaa77fdc315c5/vertx-lang-groovy-1.3.1.final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.vert-x/vertx-lang-groovy/1.3.1.final/source/7c6ca40deb2d14b746738e9976f98eb591d47a68/vertx-lang-groovy-1.3.1.final-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.codehaus.groovy/groovy-all/2.1.0/jar/a14306a090eec2fa91017b77ac079361f68e1830/groovy-all-2.1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.codehaus.groovy/groovy-all/2.1.0/source/2a084ca361e0867f9ba7f42a76c2603d266caba/groovy-all-2.1.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.slf4j/slf4j-api/1.6.2/jar/8619e95939167fb37245b5670135e4feb0ec7d50/slf4j-api-1.6.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.slf4j/slf4j-api/1.6.2/source/6b5f6572792e2192ecf714ea12ae894b0fbcf750/slf4j-api-1.6.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/log4j/log4j/1.2.16/bundle/7999a63bfccbc7c247a9aea10d83d4272bd492c6/log4j-1.2.16.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/log4j/log4j/1.2.16/source/bf945d1dc995be7fe64923625f842fbb6bf443be/log4j-1.2.16-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/io.netty/netty/3.5.9.Final/bundle/543190a0dc66a66ec02207f3706128f8dfb470b5/netty-3.5.9.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/io.netty/netty/3.5.9.Final/source/6396d1b5eacba6bf6ce6cd50617fa1fa8822398f/netty-3.5.9.Final-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.codehaus.jackson/jackson-core-asl/1.9.4/jar/8d8b2a3e5bc77ee1be67d060b44ac77d48a27d6e/jackson-core-asl-1.9.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.codehaus.jackson/jackson-core-asl/1.9.4/source/6900e0981e0cb1dbef3f5478fea10d08697943f0/jackson-core-asl-1.9.4-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.codehaus.jackson/jackson-mapper-asl/1.9.4/jar/5206191b35112f50b8e25fcbd3f3b84e12e11cee/jackson-mapper-asl-1.9.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.codehaus.jackson/jackson-mapper-asl/1.9.4/source/b02c74ecea713097e92b037a27cdf9bbd2d96615/jackson-mapper-asl-1.9.4-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.hazelcast/hazelcast/2.4.1/jar/3b84cd32555d9528a19615b6b3fdfc94920160e/hazelcast-2.4.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.hazelcast/hazelcast/2.4.1/source/2202cdcc1de6e57e486d9a14adae0015bf3d55b4/hazelcast-2.4.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.vert-x/vertx-core/1.3.1.final/jar/a29f6cb842d1761b91f43d55019fa6ae856a92eb/vertx-core-1.3.1.final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.vert-x/vertx-core/1.3.1.final/source/b9fbb44288714950698d4176a3af3785d5d04aca/vertx-core-1.3.1.final-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.vert-x/vertx-platform/1.3.1.final/jar/c9a5129df0edf88cc8eb8407090bbd8eab7f01e4/vertx-platform-1.3.1.final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.vert-x/vertx-platform/1.3.1.final/source/e98e7aed1bb036b3c9d6dc6ed140dea992aa5b01/vertx-platform-1.3.1.final-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/grooscript-0.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/monkfish-0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.spockframework/spock-core/0.7-groovy-2.0/jar/4de0b428de0c14b6eb6375d8174f71848cbfc1d7/spock-core-0.7-groovy-2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.spockframework/spock-core/0.7-groovy-2.0/source/19f1e62a5094604766f83e55a693b9cdac3b271a/spock-core-0.7-groovy-2.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.hamcrest/hamcrest-core/1.3/jar/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.hamcrest/hamcrest-core/1.3/source/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/junit/junit-dep/4.10/jar/64417b3bafdecd366afa514bd5beeae6c1f85ece/junit-dep-4.10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/junit/junit-dep/4.10/source/2c7dad0a5eb1602c6fe6b43abec8ea35805b3ae4/junit-dep-4.10-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
