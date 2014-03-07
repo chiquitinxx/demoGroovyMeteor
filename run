@@ -1,0 +1,2 @@
+#!/bin/bash
+vertx run Server.groovy -cp lib/monkfish-0.1.jar:lib/grooscript-0.2.jar
