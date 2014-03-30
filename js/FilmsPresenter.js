@@ -39,9 +39,9 @@ function FilmsPresenter() {
     } else {
       var data = "<ul>";
       gSmethodCall(gSmethodCall(gSmethodCall(Movie,"list",gSlist([])),"sort",gSlist([function(it) {
-        return gSgetProperty(it,"numberClicks");
+        return gSgetProperty(it,"name");
       }])),"each",gSlist([function(film) {
-        data += "<li onclick='presenter.addOneClick(" + (gSgetProperty(film,"id")) + ")'>" + (gSgetProperty(film,"name")) + " has been clicked " + (gSgetProperty(film,"numberClicks")) + " times.";
+        data += (gSplus("<li onclick='presenter.addOneClick(" + (gSgetProperty(film,"id")) + ")'>", "" + (gSgetProperty(film,"name")) + " has been clicked " + (gSgetProperty(film,"numberClicks")) + " times."));
         if (gSgetProperty(film,"numberClicks") > 10) {
           data += " Maybe amazing.";
         } else {

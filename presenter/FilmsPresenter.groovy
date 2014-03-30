@@ -1,4 +1,4 @@
-import Movie
+import model.Movie
 
 class FilmsPresenter {
 
@@ -12,16 +12,6 @@ class FilmsPresenter {
         if (!Movie.changeListeners) {
             Movie.changeListeners << this.&renderFilms
         }
-
-        /* Chat
-        view.sendMessageEnabled = false
-        view.labelMessageText = INITIAL_CHAT_LABEL
-        view.nameChatValue = ''
-        view.messageChatValue = ''
-        if (!Chat.changeListeners) {
-            Chat.changeListeners << this.&processChatChange
-        }
-        */
 	}
 
     def newItemNameOnKeyup(String value, key) {
@@ -48,8 +38,9 @@ class FilmsPresenter {
             putEmptyList()
         } else {
             String data = '<ul>'
-            Movie.list().sort { it.numberClicks }.each { Movie film ->
-                data+="<li onclick='presenter.addOneClick(${film.id})'>${film.name} has been clicked ${film.numberClicks} times."
+            Movie.list().sort { it.name }.each { Movie film ->
+                data+="<li onclick='presenter.addOneClick(${film.id})'>" +
+                        "${film.name} has been clicked ${film.numberClicks} times."
                 if (film.numberClicks>10) {
                     data+=' Maybe amazing.'
                 } else if (film.numberClicks>5) {
@@ -69,41 +60,4 @@ class FilmsPresenter {
             film.save()
         }
     }
-
-    /* Chat
-    def checkSendMessageUp() {
-        if (view.nameChatValue.size()>3 && view.messageChatValue.size()>0) {
-            view.sendMessageEnabled = true
-        } else {
-            view.sendMessageEnabled = false
-        }
-    }
-
-    def nameChatOnKeyup(String value, key) {
-        view.nameChatValue = value
-        if (value.size()>0) {
-            view.labelMessageText = value + ' :'
-        } else {
-            view.labelMessageText = INITIAL_CHAT_LABEL
-        }
-        checkSendMessageUp()
-    }
-
-    def messageChatOnKeyup(String value, key) {
-        view.messageChatValue = value
-        checkSendMessageUp()
-    }
-
-    def sendMessageOnClick() {
-        def newChat = new Chat(who: view.nameChatValue, message: view.messageChatValue)
-        newChat.save()
-        view.messageChatValue = ''
-    }
-
-    def processChatChange(dataRecieved) {
-        if (dataRecieved.item) {
-            view.messagesPrepend "<p>${dataRecieved.item.who}: ${dataRecieved.item.message}</p>"
-        }
-    }
-    */
 }

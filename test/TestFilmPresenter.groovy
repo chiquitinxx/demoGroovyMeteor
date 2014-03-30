@@ -57,43 +57,4 @@ class TestFilmPresenter extends Specification {
         presenter.view.newItemNameValue == ''
     }
 
-    /*
-    def 'change name or message in the chat'() {
-        given:
-        def presenter = getPresenter()
-
-        when: 'Name of message in chat changes'
-        presenter.nameChatOnKeyup(name,null)
-        presenter.messageChatOnKeyup(message,null)
-
-        then: 'Button "send" enabled if name>3 and message>0 and labelMessage changes with name'
-        presenter.view.addMessageEnabled == buttonEnabled
-        presenter.view.labelMessageText == nameText
-
-        where:
-        name    |message    |buttonEnabled  |nameText
-        ''      |''         |false          |FilmsPresenter.INITIAL_CHAT_LABEL
-        NAME    |''         |false          |NAME+' :'
-        ''      |MESSAGE    |false          |FilmsPresenter.INITIAL_CHAT_LABEL
-        NAME    |MESSAGE    |true           |NAME+' :'
-    }
-
-    def 'send a message appears in chat window'() {
-        given:
-        def presenter = getPresenter()
-        presenter.nameChatOnKeyup(NAME,null)
-        presenter.messageChatOnKeyup(MESSAGE,null)
-
-        when:'send message button click'
-        presenter.sendMessageOnClick()
-
-        then: 'message added to db, appears in chat window and message chat blanks'
-        Chat.count() == 1
-        Chat.list()[0].who == NAME
-        Chat.list()[0].message == MESSAGE
-        presenter.view.messagesHtml.contains("<p>${NAME}: ${MESSAGE}</p>")
-        presenter.view.messageChatValue == ''
-    }
-    */
-
 }
